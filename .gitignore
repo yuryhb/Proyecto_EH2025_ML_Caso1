@@ -1,0 +1,35 @@
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Microdatos originales del INE
+data/raw/*
+!data/raw/README.md
+*.sav
+*.dta
+*.zsav
+*.por
+
+# Archivos temporales
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# Configuraciones privadas
+.env
+.env.*
+
+# Archivos de sistema
+desktop.ini
